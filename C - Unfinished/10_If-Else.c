@@ -6,15 +6,44 @@ int main(int argc, char const *argv[]){
     scanf("%d",&age);
 
 
-    if (age >= 18){
-        printf("Yeah, You Can Vote!\n");
-    }
-    else if (age == 0){
-        printf("Pehle Paida To Ho Jaao Yrr !\n");
-    }
-    else{
-        printf("Sorry, You Cannot Vote !\n");
-    }
+// Two types of syntax while using if-else
+
+
+
+
+
+
+// With {}
+    // if (age >= 18){
+    //     printf("Yeah, You Can Vote!\n");
+    // }
+    // else if (age == 0){
+    //     printf("Pehle Paida To Ho Jaao Yrr !\n");
+    // }
+    // else{
+    //     printf("Sorry, You Cannot Vote !\n");
+    // }
+
+
+
+
+// Without {}
+    // if (age >= 18)
+    //     printf("Yeah, You Can Vote!\n");
+    // else
+    //     printf("Sorry, You Cannot Vote !\n");
+    
+
+
+
+// Without {}
+    // if (age >= 18)
+    //     printf("Yeah, You Can Vote!\n");
+    // else if (age == 0)
+    //     printf("Pehle Paida To Ho Jaao Yrr !\n");
+    // else
+    //     printf("Sorry, You Cannot Vote !\n");
+    
    
     return 0;
 }
