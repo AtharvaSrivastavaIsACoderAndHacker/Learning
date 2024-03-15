@@ -18,7 +18,7 @@ int main(int argc, char const *argv[]){
       Mine is 64 bit architecture so, mine will be 2x the size in 32 bit architecture 
 
     */
-
+    // sizeof returns no. of bytes the operand occupies
     printf("Int - %d bytes",sizeof(int)); // ---------------> see in 64 bit architecture, (sizeof(int) == 4) = True
     
     return 0;

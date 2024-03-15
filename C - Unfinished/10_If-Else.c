@@ -27,7 +27,7 @@ int main(int argc, char const *argv[]){
 
 
 
-// Without {}
+// Without {} -----> used when there is only one statement inside if,else if or else.
     // if (age >= 18)
     //     printf("Yeah, You Can Vote!\n");
     // else
@@ -36,7 +36,7 @@ int main(int argc, char const *argv[]){
 
 
 
-// Without {}
+// Without {} -----> used when there is only one statement inside if,else if or else.
     // if (age >= 18)
     //     printf("Yeah, You Can Vote!\n");
     // else if (age == 0)

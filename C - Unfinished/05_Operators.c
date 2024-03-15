@@ -37,8 +37,8 @@ int main(int argc, char const *argv[]){
 
                         6. Miscellaneous operators :-
                             sizeof()
-                            & --------> address of
-                            * --------> pointer to
+                            & ----> address of
+                            * ----> is dereference operator or the indirection operator which returns value of the address its continued with
                             ?: ---------------> Conditional Expression (Ternary Operator)
 
             */
