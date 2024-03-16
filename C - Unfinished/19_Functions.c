@@ -1,16 +1,19 @@
 #include<stdio.h>
 
-
 int add(int a,int b){
-    printf("%d",a+b);
-    return 0;
+    return a+b;
 }
+void addAndPrint(int a,int b){
+    printf("%d\n",a+b);
+}
+
 
 
 int main(int argc, char const *argv[]){
     
     
-    add(10,20);
+    printf("%d\n",add(10,20));
+    addAndPrint(10,20);
 
     /*
     a function can be of 4 types :-
