@@ -28,7 +28,7 @@ int main(int argc, char const *argv[]){
 %f	        It is used for printing the decimal floating-point values. By default, it prints the 6 values after '.'.
 %e/%E	    It is used for scientific notation. It is also known as Mantissa or Exponent.
 %g	        It is used to print the decimal floating-point values, and it uses the fixed precision, i.e., the value after the decimal in input would be exactly the same as the value in the output.
-%p	        It is used to print the address in a hexadecimal form.
+%p	        It is used to print the address in a hexadecimal pointer form.
 %c	        Char
 %s	        It is used to print the strings.
 %l	        Long
