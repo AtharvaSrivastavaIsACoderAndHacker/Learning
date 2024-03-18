@@ -20,7 +20,7 @@ int main(int argc, char const *argv[]){
 
 /*
 
-%d or %i	It is used to print the signed integer value where signed integer means that the variable can hold both positive and negative values.
+%d or %i    It is used to print the signed integer value where signed integer means that the variable can hold both positive and negative values.
 %u	        It is used to print the unsigned integer value where the unsigned integer means that the variable can hold only positive value.
 %o	        It is used to print the octal unsigned integer where octal integer value always starts with a 0 value.
 %x	        It is used to print the hexadecimal unsigned integer where the hexadecimal integer value always starts with a 0x value. In this, alphabetical characters are printed in small letters such as a, b, c, etc.
