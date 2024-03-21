@@ -31,7 +31,8 @@ int main(int argc, char const *argv[]){
     //     * declaration without definition
     // "." operator is called as the structureMmemberOperator. Structure members can be accessed through this operator like --> e1.name
     // "->" operator is called as the structureMmemberOperator. Structure members can be accessed through pointers by this operator like
-    // structureName.memberName syntax is used to access structure members
+    // structureName.memberName syntax is used to access structure members.
+    // In a structure, each member has its own memory location, Union members use a single shared memory location !
 
 
     // General C Language ka gyan :-
