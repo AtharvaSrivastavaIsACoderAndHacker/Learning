@@ -35,6 +35,7 @@ int main(int argc, char const *argv[]){
 
     // "." operator is called as the unionMmemberOperator. Union members can be accessed through this operator like --> e1.name
     // "->" operator is called as the unionMmemberOperator. Union members can be accessed through pointers by this operator like --> e1->name
+    // -> can be used if we are referring to use pointers in the program !!!!!
     // Syntax of unions are very similar to that of structures
 
 
