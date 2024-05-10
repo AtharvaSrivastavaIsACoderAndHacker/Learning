@@ -29,8 +29,8 @@ int main(int argc, char const *argv[]){
    // #define ADD(a,b) a+b --> can be used like a function now FOR HIGH USAGE, ITS BETTER TO MAKE NORMAL FUNCTIONS !
 
    // #include
-   // #include"stdio.h" --> searches for this file in the pwd as well as in the cStandardLibrarySection !
-   // #include<stdio.h> --> searches for this file only in the cStandardLibrarySection
+   // #include"stdio.h" --> searches for this file in the pwd !
+   // #include<stdio.h> --> searches for this file in the cStandardLibrarySection
 
    // #undef
    // #undef HELLO --> HELLO should be defined somewhere at the first place to undo its creation !
