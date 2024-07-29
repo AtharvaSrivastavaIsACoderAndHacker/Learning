@@ -17,6 +17,9 @@ int main(int argc, char const *argv[]){
     // r = READ !
     // w = erase everything else and WRITE !
     // a = do not erase anything just APPEND at the content stored !
+    // r+ = READ + WRITE !
+    // w+ = erase everything else and then WRITE OR READ !
+    // a+ = do not erase anything just APPEND at the content stored --> also provides READ ability !
     // rb = READ BINARY
 
     // Any and Every file that is opened, needs to be closed !
