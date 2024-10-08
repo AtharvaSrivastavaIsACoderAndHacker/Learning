@@ -14,7 +14,7 @@ int main(int argc, char const *argv[]){
     printf("\n");
     printf("%d",__STDC__); // --> 1 is substituted here if the compiler follows the ANSI standard and 0 if it doesnt ! 
     printf("\n");
-    printf("%d",__STDC_VERSION__); // --> This macro holds the C Standard’s version number in the form yyyymmL --> 201112 = 2011 Revision of C !
+    printf("%d",__STDC_VERSION__); // --> This macro holds the C Standard’s version number in the form yyyymm --> 201112 = 2011 Revision of C !
     printf("\n");
     printf("%d",__VERSION__); // --> This macro expands to a string constant which describes the version of the compiler in use !
     printf("\n");
