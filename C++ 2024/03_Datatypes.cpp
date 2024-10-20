@@ -1,3 +1,5 @@
+#include<iostream>
+
 int main(int argc, char const *argv[]){
     
     // In C++, exists variables like any other language
@@ -8,6 +10,9 @@ int main(int argc, char const *argv[]){
 
     // bool and enum are 2 new dataypes that werent there in c language
     // enum is explained in later files !
-    
+    https://youtu.be/J05uoTbGOvQ?si=5H-beO9m36hJBnX6&t=771 --> datatypes reference image
+
+    std::cout<<sizeof(long);
+
     return 0;
 }
