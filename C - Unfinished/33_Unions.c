@@ -25,7 +25,7 @@ int main(int argc, char const *argv[]){
     //     char name[20]; // 1*20 bytes
     // };
     
-    // union activeEmployee{ // Total size of this structure is not 40 bytes, rather its 20 bytes(20 bytes is the size of largest data member).
+    // union activeEmployee{ // Total size of this union is not 40 bytes, rather its 20 bytes(20 bytes is the size of largest data member).
     //     char nameOfDayShiftEmployee[20]; // 1*20 bytes
     //     char nameOfNightShiftEmployee[20]; // 1*20 bytes
     // };
