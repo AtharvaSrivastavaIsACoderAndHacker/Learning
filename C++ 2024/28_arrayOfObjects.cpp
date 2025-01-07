@@ -33,9 +33,9 @@ int main(int argc, char const *argv[]){
 
     // Array of objects is just like a regular one, you can store and retrieve ! You can also use pointers with an arrayOfObjects !
     Employee students[2];
-    Employee Ishi, Atharva;
-    students[0] = Ishi;
-    students[1] = Atharva;
+    // Employee Ishi, Atharva;
+    // students[0] = Ishi;          // this wasn't needed coz obj array already has objs in it, but it's just to demonstrate !
+    // students[1] = Atharva;
 
     students[0].getIQ();
     students[1].getIQ();
