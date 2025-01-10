@@ -19,7 +19,7 @@ class investment{
           time = t;
           amount = principal *  (   pow(1+(float(r)/100),    time)       );
         }
-        showInvestmentDetails(){
+        void showInvestmentDetails(){
            cout << "Principal: " << principal << endl;
            cout << "Rate: " << rate << (rateInPercentage ? " (in %)" : " (in decimal)") << endl; // ternary operator 
            cout << "Time: " << time << " years" << endl;
