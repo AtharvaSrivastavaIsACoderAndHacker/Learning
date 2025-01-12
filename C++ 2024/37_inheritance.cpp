@@ -7,6 +7,7 @@ int main(int argc, char const *argv[]){
     // With inheritance, we can reuse a code in it's child class while adding more detail specific functionality !
     // It is one of the four concepts of OOPs !
     // Reusing already tested and debugged code can save a lot of time, money and effort ! (It can save lives too, those of some rage-tortured keyboards)
+    // Private parts are never inherited !
 
     // Parent class is called BASE CLASS 
     // Child class in called DERIVED CLASS
@@ -36,6 +37,7 @@ int main(int argc, char const *argv[]){
     // class Derived : <access-specifier> Base { ... };
 
     // Summary Table: Access Control in Derivation --> each specifier says either you'll have equal access or less access than me ! EG- in protected, no one is above prot, no one is public !
+    // Default ACCESS IS Private
     // ||| Base Class Member  ||| Public Derivation | Protected Derivation  | Private Derivation  |||                               Eg - in private, no one is more than private !
     // |||--------------------|||-------------------|-----------------------|---------------------|||
     // ||| PUBLIC             ||| Public            | Protected             | Private             |||
