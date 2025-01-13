@@ -37,7 +37,8 @@ int main(int argc, char const *argv[]){
     // class Derived : <access-specifier> Base { ... };
 
     // Summary Table: Access Control in Derivation --> each specifier says either you'll have equal access or less access than me ! EG- in protected, no one is above prot, no one is public !
-    // Default ACCESS IS Private
+    // Default VISIBILITY MODE IS Private
+    // THERE ARE THREE VISIBILITY MODES : PUBLIC,  PRIVATE AND PROTECTED !
     // ||| Base Class Member  ||| Public Derivation | Protected Derivation  | Private Derivation  |||                               Eg - in private, no one is more than private !
     // |||--------------------|||-------------------|-----------------------|---------------------|||
     // ||| PUBLIC             ||| Public            | Protected             | Private             |||

@@ -12,7 +12,8 @@ class Employee{
         void printNameAndSalary(){cout<<name<<" | "<<salary<<endl;};
 };
 
-class Programmer: public Employee{ // Single Inheritance !
+class Programmer: public Employee{ // Single Inheritance: The derived class constructor calls the base class constructor when the Derived class is created.
+    //                                If the base class has no default constructor, you must explicitly call a parameterized constructor.
     string primeLanguage; 
     public:
         Programmer(string n, double sal, string pLang):Employee(n,sal){
