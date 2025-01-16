@@ -33,7 +33,7 @@ int main(int argc, char const *argv[]){
   // in multiple inheritance, base classes' constructors are called in the order they are specified in the derived class's declaration : EG ---- class Derived : public Base1, public Base2{}; --> base1's constructor would be executed 1st, them Base2's !
   // In multilevel inheritance, the constructors are called in the order of the inheritance path !
   // The constructors for virtual base classes are invoked before a non-virtual base class !
-  // Is there are multiple virtual base classes, they are invoked in the order they are declared in !
+  // If there are multiple virtual base classes, they are invoked in the order they are declared in !
   
 
 
