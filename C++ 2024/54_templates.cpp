@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+// template <class T>    // Equivalent
+// template <typename T> // Equivalent
 
 // With one parameter !
 template<class tem>
@@ -49,6 +51,7 @@ class actual_STL_type_pair{
 
 int main(int argc, char const *argv[]){
     
+    // Templates provide static/compile time polymorphism. While virtualism provides dynamic polymorphism.
     // Templates are used to make versatile classes or functions that work with multiple datatypes without having us to redefine an int based class to work as a float based class !
     // Templates are also known as parameterized classes !
     // Generic Programming refers to writing generic code that works for various datatypes !
