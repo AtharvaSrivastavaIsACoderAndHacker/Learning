@@ -42,8 +42,47 @@ int main(int argc, char const *argv[]){
 
     it = randomVector.end()-1; // changed from vec to randomVector ! --> -1 bcoz .end() points to the memory location right after the last element !
     cout<<*it<<endl;
-    
 
+    cout<<vec.front()<<" and "<<vec.back()<<endl;
+
+
+    printVector(vec);
+    vec.erase(vec.end()-2);
+    printVector(vec);
+    vec.erase(vec.begin(), vec.begin()+2); // from , to
+    printVector(vec);
+    vec.erase(vec.begin());
+    printVector(vec);
     
+    vec.pop_back();
+    printVector(vec);
+
+    vec.insert(vec.begin(), 5, 69); // (position,   x:no. of items to be inserted,    what to be inserted x times)
+    printVector(vec);
+
+
+    // enough atyachaar on vec and randomVector, lets create new ones !
+
+    vector<int> v = {1,2,3};
+    vector<char> vv = {'1','2','3'};
+    vector<int> vvv = {4,5,6};
+
+    // swap() swaps values of two vectors
+    v.swap(vvv);
+
+    printVector(v);
+    printVector(vvv);
+
+    // v.swap(vv); // illegal bcoz the 2 vectors are of different datatypes !
+
+    v.clear();
+    cout<<"Is v empty ? --> "<<v.empty()<<endl; // boolean
+    v.insert(v.begin(), 10, 69);
+    cout<<"Is v empty ? --> "<<v.empty()<<endl; // boolean
+
+    printVector(v);
+
+    // Have a good day !
+
     return 0;
 }
