@@ -34,7 +34,7 @@ int main(int argc, char const *argv[]){
     cout<<*ms.end()<<endl; // both 6s were smoked !
     
     ms.erase(ms.find(5)); // only erases one 5 !
-    cout<<*ms.end()<<endl; // only one 5 was burnt to a fine crisp , it was skewered by falling stalagmite, which my friend Ansh enjoys !
+    cout<<*ms.end()<<endl; // only one 5 was burnt to a fine crisp , it was skewered by falling stalagmite, which Ansh enjoys !
 
 
     // ==================================================================================================================================

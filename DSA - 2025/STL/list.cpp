@@ -28,7 +28,7 @@ int main(int argc, char const *argv[]){
 
 
     list<int> li = {1,2,3,4,5};
-    printList(li);
+    printList<int>(li);
     
     li.push_back(6);
     li.emplace_back(7);

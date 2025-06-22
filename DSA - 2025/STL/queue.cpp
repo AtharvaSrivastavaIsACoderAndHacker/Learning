@@ -33,7 +33,7 @@ void printMinHeap(priority_queue<T, vector<T>, greater<T>> q) {
 
 int main(int argc, char const *argv[]){
     
-    // STACK follows FIFO or LILO !
+    // STACK follows FILO or LIFO !
     // Imagine a queue of people, FIFO and LILO ! You come first you exit first !
     // Random Access - Not supported by QUEUES, due to non-contiguous memory.
     // A Queue is an adapter, not a sequence container — it lacks initializer list support.
