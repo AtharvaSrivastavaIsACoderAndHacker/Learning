@@ -9,7 +9,7 @@ int main(int argc, char const *argv[]){
     file.open("hello.txt", ios::in | ios::out); // opening using open() function !
     
     // WRITING            
-    file<<"Atharva Ishi Ansh Adhyan !";
+    file<<"Atharva Ishi Ansh Agrima !";
 
     // READING
     string str, individual, individual2;
