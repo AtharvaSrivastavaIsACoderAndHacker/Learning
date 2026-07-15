@@ -50,7 +50,7 @@ int main() {
     // Hashmaps, cryptpgraphic hashing and other uses are specific derivations of
     // this fundamental
 
-    // So Hashing it much more that just a Data Structure
+    // So Hashing is much more that just a Data Structure
 
     /*
         a hashmap/ hashing conept is universal, but u can use it for specialized
@@ -96,7 +96,7 @@ int main() {
         while (1){
         int n;
         cout<<"Enter a no. and the program will return you it's frequency in the hardcoded array above ! : "; 
-        cin>>n; cout<<umap[n]<<endl; // prints frequency of input n scc to the 20 element int array above !
+        cin>>n; cout<<umap[n]<<endl; // prints frequency of input n acc to the 20 element int array above !
                                      
         }
     */
@@ -118,7 +118,7 @@ int main() {
     cout << it->first << ": " << it->second << endl;
     um2.erase(2);
 
-    https: // www.geeksforgeeks.org/cpp/map-vs-unordered_map-c/
+    https://geeksforgeeks.org/cpp/map-vs-unordered_map-c 
 
     // Maps and Unordered Maps are vastly diff in implementations and use cases,
     // but their syntax and methods are almost similar so no need to re write !

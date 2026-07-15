@@ -50,7 +50,7 @@ int main() {
                                       // to make our life !hell,
   int hashOfStr[26] = {0}; // cause i can fit a to z withing indexes 0 to 25,
                            // which give me a space of 26 elements
-  for (int i = 0; i < 21; i++) { // cause i have 12 chars in the string, 0 to 20
+  for (int i = 0; i < 21; i++) { // cause i have 21 chars in the string, 0 to 20
                                  // is 21 total indexes
     // ASCII  of lowercase 'a' is 97;
     hashOfStr[int(s[i]) - 97]++; // means that the char at index i, lets say
