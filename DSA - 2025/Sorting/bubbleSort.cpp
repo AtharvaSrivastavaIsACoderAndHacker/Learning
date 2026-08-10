@@ -16,7 +16,7 @@ int main() {
     // this was the inner loop , now u do that pushing thing with the second element
     // in this algo, in the 1st iteration of outer loop, the largest element reaches it's place, in the 2nd iteration, the 2nd largest element reaches it's place, so we can omit last places to save time as they are permanently sorted into right place 
     // worst/average case time complexity = O(N^2)
-    // best case time complexity = O(N) that's if its already sorted
+    // best case time complexity = O(N) that's if its already sorted --> only if a flag or condition is applied
 
     // Ascending Order Sort
     
