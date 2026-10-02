@@ -27,10 +27,10 @@ int main() {
 
   int hashArr[10] = {
       0}; // 10 isn't because our array is of size 10, its because it's values
-          // are knows and range from 0 to 9 to to store frequescies of values 0
+          // are knows and range from 0 to 9 to to store frequencies of values 0
           // to 9 . we need a hashmap of size 10,
   // we may have had arr size to be 100, but if the values range from 0 to 9,
-  // we'll take 10 only, if the vaules ranged from 0 to 90, we would've taken
+  // we'd take 10 only, if the vaules ranged from 0 to 90, we would've taken
   // hash[91]
   for (int i = 0; i < 10; i++) {
     // arr[i] refers to the element at the index i
@@ -52,6 +52,7 @@ int main() {
                            // which give me a space of 26 elements
   for (int i = 0; i < 21; i++) { // cause i have 21 chars in the string, 0 to 20
                                  // is 21 total indexes
+                                 // USE --> s.length() INSTEAD OF HARDCODING
     // ASCII  of lowercase 'a' is 97;
     hashOfStr[int(s[i]) - 97]++; // means that the char at index i, lets say
                                  // 'i', its ASCII value is 105, so it'll be

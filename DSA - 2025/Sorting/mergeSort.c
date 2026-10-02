@@ -31,6 +31,9 @@ void mergeTwoSortedArraysNAIVE(int* arr, int * brr, int aLen, int bLen, int * cr
     
 }
 void mergeSortNaive(int* ori, int len){
+    if(len == 1){
+        return;
+    }
     int left = len/2;
     int right = len-left;
     int leftArr[left];
@@ -44,18 +47,12 @@ void mergeSortNaive(int* ori, int len){
         rightArr[i-left] = ori[i];
     }
 
-    if(len == 2){
-        mergeTwoSortedArraysNAIVE(leftArr, rightArr, left, right, ori);
-        return;
-    }
-    if(len == 1){
-        return;
-    }
 
     mergeSortNaive(leftArr, left);
     mergeSortNaive(rightArr, right);
 
     mergeTwoSortedArraysNAIVE(leftArr, rightArr, left, right, ori);    
+
 }
 
 
@@ -81,22 +78,17 @@ void mergeSort(int* ori, int* temp, int len){
     int left = len/2;
     int right = len-left;
     
-    if (len <= 2){
-        mergeTwoSortedArrays(ori, ori+left, left, right, temp);
-
-        return;
-    }
-    if (len <= 1){
+    if (len == 1){
         temp[0] = ori[0];
         return;
     }
     mergeSort(ori, temp, left); // only considers the left split of ori
-    mergeSort(ori + left, temp, right); // only considers the right split of ori
+    mergeSort(ori + left, temp+left, right); // only considers the right split of ori
 
-    mergeTwoSortedArrays(ori, ori+left, left, right, temp);
-
-    for (int i = 0; i < len; i++)
-        ori[i] = temp[i]; // INCOMPLETE BUT IM SPEEPY CMON
+    mergeTwoSortedArrays(temp, temp+left, left, right, ori);
+    for (int i = 0; i < len; i++) {
+        temp[i] = ori[i];
+    }
 }
 
 

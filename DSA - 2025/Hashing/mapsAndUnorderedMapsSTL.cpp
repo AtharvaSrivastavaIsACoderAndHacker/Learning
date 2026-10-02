@@ -11,7 +11,7 @@ int main() {
     // array
 
     // Stack boolean array limit, 10^7
-    // Global boolean arrya limit 10^8
+    // Global boolean array limit 10^8
   
     // That's why you use dynamic mem allocation, like malloc, calloc (for
     // contiguous mem), or in this case a C++ Standard template called a Hashmp,
@@ -24,7 +24,7 @@ int main() {
 
     // In unordered maps, it uses a hashing function to take the value and run it
     // through a function to get the memory address where to store it's data ie
-    // frequency. so if you have values rangin from 1 to 100, but array is
+    // frequency. so if you have values ranging from 1 to 100, but array is
     // {0,1,2,100}, u waste 97 spaces which just have to contain 0s to maintain
     // continuity, but unordered map calculates the locations for each unique
     // elements and stores freq there after calculations ! so when looking up a

@@ -24,14 +24,14 @@ int main() {
 
     // My DIY implementation, i won't change it, it'd be a bit odd as i haven't seen the tutorial yet, it's paused, its a DIY
     // same can be done for ascending order aswell, this is Descending !
-    for (int i = 0; i < n-1; i++) { // if N = 5, oonly 0 to 3 is needed not full 0 to 4, cause last in automatically sorted, inner loop goes till last cause it has to compare full array
+    for (int i = 0; i < n-1; i++) { // if N = 5, only 0 to 3 is needed not full 0 to 4, cause last in automatically sorted, inner loop goes till last cause it has to compare full array
         int maxIndex = i;
         for (int j = i+1; j < n; j++) { // i+1 because arr[i] is already scanned into the var by default ! i+1 to n-1 as after each iteration of outer, this will only consider the then remaining part of the array and not the whole, excluding the initial, sorted elements
             if(arr[j]>arr[maxIndex]){
                 maxIndex = j;
             }
         }
-        if (i == maxIndex) continue; // skip if the 
+        if (i == maxIndex) continue; // skip if the indices match !
         // swap
         int temp = arr[i];
         arr[i] = arr[maxIndex];
